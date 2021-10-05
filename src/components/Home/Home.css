@@ -1,0 +1,12 @@
+.banner {
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team-container
+{
+    text-align: center;
+    padding: 30px;
+}

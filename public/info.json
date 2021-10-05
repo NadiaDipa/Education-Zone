@@ -1,0 +1,45 @@
+[   {
+        "id": "05",
+        "courseName": "Python Crash Course",
+        "price": 1800,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFYV8ckviYmZf4Qppf9jSBOPxV0s02p-q8w&usqp=CAU"
+    },
+
+    {
+        "id": "06",
+        "courseName": "Node & Express Full Course",
+        "price": 2500,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDqpcoeXfymqiw4c8pi3vigfNM7IGi-z9wLw&usqp=CAU"
+    },
+
+    {
+        "id": "07",
+        "courseName": "JavaScript Crash Course",
+        "price": 1500,
+        "image": "https://i.ytimg.com/vi/hdI2bqOjy3c/maxresdefault.jpg"
+    }, 
+    
+    {
+        "id": "08",
+        "courseName": "React Js",
+        "price": 2500,
+        "image": "https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/the-benefits-of-reactjs-main.jpg"
+    },
+
+    {
+        "id": "01",
+        "courseName": "Data Science",
+        "price": 1000,
+        "image": "https://s27389.pcdn.co/wp-content/uploads/2021/07/data-science-predictions-for-near-future-1024x440.jpeg.optimal.jpeg"
+    },
+
+    {
+        "id": "02",
+        "courseName": "Artificial Intelligence",
+        "price": 1200,
+        "image": "https://www.srimax.com/wp-content/uploads/2020/01/Importance-of-Artificial-Intelligence.jpeg"
+    }
+
+
+
+]

@@ -1,0 +1,23 @@
+.from {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.button {
+    background-color: #ff284f;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #ff284f;
+}
+
+.contact-img {
+    margin-left: 400px;
+}
