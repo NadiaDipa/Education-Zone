@@ -5,8 +5,9 @@ const About = () => {
     return (
         <div>
             <div className="about-img"><img width="570px" src="https://cdna.artstation.com/p/assets/images/images/023/576/078/original/ying-chen-me-optimize.gif?1579652163" alt="" /></div>
+            <h3 className="headline bg-dark pb-3 pt-3 mb-3 text-center">ABOUT THE EDUCATION ZONE</h3>
             <div className=" text-center ms-5 me-5">
-                <h3 className="about-headline mb-4">ABOUT THE EDUCATION ZONE</h3>
+               
                 <p className="mb-5"> 
                 Our job is to make it as easy as possible
                 for your career to have a beautiful, up to date website.What's more, we offer everything you need to engage online community like never before. Forget about App, Website and Marketing from separate providers. Take control of everything in one trustworthy, reliable place.

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { Card } from 'react-bootstrap';
 import './Home.css';
 
 import Courses from '../Courses/Courses';
@@ -13,15 +12,18 @@ const Home = () => {
         .then(data => setCourses(data))
     },[]);
     return (
-        <div className="container py-4">
+        <div className="py-4">
            <div className="banner">
                 <img className="img-fluid h-40" src="https://www.bestpraceduc.org/wp-content/uploads/2017/12/logo-1.jpg" alt="" />
            </div>
-
+            
             <br />
-            <div className="card-content text-center">
+            <div>
+                <h1 className ="headline bg-dark pb-3 pt-3 mb-3 text-center">Our Featured Course</h1>
+                <div className="card-content text-center">
+                
                 <div className="course-container">
-                <h1 className ="about-headline">Our Featured Course</h1>
+                
             </div>
             <div className="searchbox mt-4 mb-4">
                 <input type="text" className="p-2" placeholder="Enter Your Course" />
@@ -33,6 +35,7 @@ const Home = () => {
                        courses.map(course => <Col> <Courses course ={course}></Courses> </Col>)
                     }
                 </Row>
+            </div>
             </div>
             </div>
         </div>

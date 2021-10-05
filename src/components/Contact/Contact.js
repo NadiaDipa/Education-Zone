@@ -11,12 +11,12 @@ const Contact = () => {
             <div className="contact-img">
                  <img width = "500px"
                  src = "https://img.freepik.com/free-vector/contact-center-abstract-concept_335657-3032.jpg?size=338&ext=jpg"
-                 alt = "" />
+                 alt = ""/>
             </div>
             <div className="from">
-                <Form>
-                    <h1 className = "about-headline text-center mb-5 mt-3"> Contact With Us! </h1>
-                    <Row className="mb-3">
+                <Form className = "bg-dark pe-5 ps-5 pb-5 border border-5" >
+                    <h1 className = "headline text-center bg-dark pb-3 pt-3 mb-3"> Contact With Us! </h1>
+                    <Row Row className = "mb-3 text-white" >
                         <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Fullname</Form.Label>
                             <Form.Control type="email" placeholder="Enter Your Name" />
@@ -28,12 +28,12 @@ const Contact = () => {
                         </Form.Group>
                     </Row>
 
-                    <Form.Group className="mb-3" controlId="formGridAddress1">
+                    <Form.Group className="mb-3 text-white" controlId="formGridAddress1">
                         <Form.Label>Your Message</Form.Label>
                         <Form.Control placeholder="Enter Your Message Here!" />
                     </Form.Group>
 
-                    <Row className="mb-3">
+                    <Row Row className = "mb-3 text-white" >
                         <Form.Group as={Col} controlId="formGridCity">
                             <Form.Label>City</Form.Label>
                             <Form.Control />

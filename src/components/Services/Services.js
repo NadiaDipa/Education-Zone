@@ -13,7 +13,9 @@ const Services = () => {
     }, []);
     return (
         <div>
-            <div className="courses">
+            <h1 className ="headline pb-3 pt-3 mb-3 bg-dark text-center">Our Top Services</h1>
+            <div div className = "courses" >
+                
                 <Row xs={1} md={3} className="g-4">
                     {
                        courses.map(course => <Col> <Courses course ={course}></Courses> </Col>)

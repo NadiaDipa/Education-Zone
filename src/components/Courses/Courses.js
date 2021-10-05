@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const Courses = (props) => {
     const { courseName, image, price} = props.course;
