@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 const Courses = (props) => {
-    const { courseName, image, price} = props.course;
+    const { courseName, image, price, instructor} = props.course;
   
     return (
     
@@ -11,13 +11,13 @@ const Courses = (props) => {
           <img className="card-image" width="100%" height="230px" src= {image} alt="" />
         <Card.Body>
           <Card.Title>{courseName}</Card.Title>
-          <Card.Text>
-            
-          </Card.Text>
-          <p>Price: {price}</p>
-        
           
-         <button className="btn btn-danger">Enroll Now</button>
+          <p><b>Price:</b> ${price}
+          <br /> by <b>{instructor}</b></p>
+         
+         <div>
+           <button className="btn btn-danger">Enroll Now</button>
+         </div>
         </Card.Body>
        
       </div>

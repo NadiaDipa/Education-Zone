@@ -14,7 +14,7 @@ const Contact = () => {
                  alt = ""/>
             </div>
             <div className="from">
-                <Form className = "bg-dark pe-5 ps-5 pb-5 border border-5" >
+                <Form className = "bg-dark mt-5 pe-5 ps-5 pb-5 border border-5" >
                     <h1 className = "headline text-center bg-dark pb-3 pt-3 mb-3"> Contact With Us! </h1>
                     <Row Row className = "mb-3 text-white" >
                         <Form.Group as={Col} controlId="formGridEmail">
