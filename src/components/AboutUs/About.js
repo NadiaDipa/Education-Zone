@@ -4,8 +4,10 @@ import './About.css'
 const About = () => {
     return (
         <div>
+            {/* image */}
             <div className="about-img"><img width="570px" src="https://cdna.artstation.com/p/assets/images/images/023/576/078/original/ying-chen-me-optimize.gif?1579652163" alt="" /></div>
             <h3 className="headline bg-dark pb-3 pt-3 mb-3 text-center">ABOUT THE EDUCATION ZONE</h3>
+            {/* about-section */}
             <div className=" text-center ms-5 me-5">
                
                 <p className="mb-5"> 
@@ -24,8 +26,6 @@ const About = () => {
                 case for most mobile applications.For payment of products and services, we use an outside credit card processing and payment gateway company.For any other purpose, these companies do not retain, share, store or use personal information.
                 </p>
             </div>
-
-
         </div>
     );
 };

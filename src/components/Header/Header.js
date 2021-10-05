@@ -10,8 +10,10 @@ const Header = () => {
         <div>
              <Navbar className="header">
                 <Container>
-                   <img width="90" height="70" src = "./image/image.png"
-                   alt = ""/>
+                    
+                   <img width="90px" height="70px" src = "./image/image.png" alt = ""/>
+
+                   {/* navbar-section  */}
                         <Nav className = "ms-auto" >
                             <Link className="nav-link me-4 nav-item" to="/home">Home</Link>
                             <Link className="nav-link me-4 nav-item" to="/about">About</Link>

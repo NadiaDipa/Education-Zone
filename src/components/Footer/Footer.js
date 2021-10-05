@@ -3,6 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return ( 
+        // footer-section 
         <footer className = "footer p-4" >
         All right reserved &copy; | Education Zone 2021 
         </footer>
