@@ -9,12 +9,13 @@ const Contact = () => {
         <div>
             
             <div className="contact-img">
-                 < img width = "500px"
+                 <img width = "500px"
                  src = "https://img.freepik.com/free-vector/contact-center-abstract-concept_335657-3032.jpg?size=338&ext=jpg"
                  alt = "" />
             </div>
             <div className="from">
                 <Form>
+                    <h1 className = "about-headline text-center mb-5 mt-3"> Contact With Us! </h1>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Fullname</Form.Label>
@@ -46,7 +47,7 @@ const Contact = () => {
                         </Form.Group>
                     </Row>
 
-                    <Button className="button">SUBMIT</Button>
+                    <Button className="button btn-danger">SUBMIT</Button>
                 </Form>
             </div>
 

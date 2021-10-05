@@ -5,7 +5,7 @@
 }
 
 .button {
-    background-color: #ff284f;
+    /* background-color: #ff284f; */
     color: white;
     border-radius: 10px;
     padding: 10px;
@@ -19,5 +19,5 @@
 }
 
 .contact-img {
-    margin-left: 400px;
+    margin-left: 440px;
 }

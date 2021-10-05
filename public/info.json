@@ -1,43 +1,43 @@
 [   {
         "id": "05",
-        "courseName": "Python Crash Course",
+        "courseName": "Python & Django Course",
         "price": 1800,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFYV8ckviYmZf4Qppf9jSBOPxV0s02p-q8w&usqp=CAU"
+        "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115234897/original/eee3ef77448c4fa2ae8abfd4b98a0075efd63fb1/develop-web-application-webpage-using-django-python.jpeg"
     },
 
     {
         "id": "06",
-        "courseName": "Node & Express Full Course",
+        "courseName": "Node JS Full Course",
         "price": 2500,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDqpcoeXfymqiw4c8pi3vigfNM7IGi-z9wLw&usqp=CAU"
+        "image": "https://www.cherubsoft.com/img/nodejs.jpg"
     },
 
     {
         "id": "07",
         "courseName": "JavaScript Crash Course",
         "price": 1500,
-        "image": "https://i.ytimg.com/vi/hdI2bqOjy3c/maxresdefault.jpg"
+        "image": "https://i.ytimg.com/vi/kjLSpacfa8k/maxresdefault.jpg"
     }, 
     
     {
         "id": "08",
-        "courseName": "React Js",
+        "courseName": "React Crash Course 2021",
         "price": 2500,
-        "image": "https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/the-benefits-of-reactjs-main.jpg"
+        "image": "https://i.ytimg.com/vi/w7ejDZ8SWv8/maxresdefault.jpg"
     },
 
     {
         "id": "01",
         "courseName": "Data Science",
         "price": 1000,
-        "image": "https://s27389.pcdn.co/wp-content/uploads/2021/07/data-science-predictions-for-near-future-1024x440.jpeg.optimal.jpeg"
+        "image": "https://ml8ygptwlcsq.i.optimole.com/fMKjlhs-whZeMe6-/w:auto/h:auto/q:auto/https://www.unite.ai/wp-content/uploads/2020/07/data-5058177_960_720.jpg"
     },
 
     {
         "id": "02",
         "courseName": "Artificial Intelligence",
         "price": 1200,
-        "image": "https://www.srimax.com/wp-content/uploads/2020/01/Importance-of-Artificial-Intelligence.jpeg"
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/7qa8lNXDRDSQLB4N9Xp2"
     }
 
 

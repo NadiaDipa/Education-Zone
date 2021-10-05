@@ -21,7 +21,7 @@ const Home = () => {
             <br />
             <div className="card-content text-center">
                 <div className="course-container">
-                <h1>Our Featured Course</h1>
+                <h1 className ="about-headline">Our Featured Course</h1>
             </div>
             <div className="searchbox mt-4 mb-4">
                 <input type="text" className="p-2" placeholder="Enter Your Course" />
