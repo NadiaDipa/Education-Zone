@@ -8,15 +8,15 @@ const Header = () => {
     
     return (
         <div>
-
-             <Navbar bg="dark" variant="dark">
+             <Navbar className="header">
                 <Container>
-                    <Navbar.Brand to="/home">Navbar</Navbar.Brand>
-                        <Nav className="me-auto">
-                            <Link className="nav-link" to="/home">Home</Link>
-                            <Link className="nav-link" to="/about">About</Link>
-                            <Link className="nav-link" to="/services">Services</Link>
-                            <Link className="nav-link" to="/contact">Contact Us</Link>
+                   <img width="90" height="70" src = "./image/image.png"
+                   alt = ""/>
+                        <Nav className = "ms-auto" >
+                            <Link className="nav-link me-4 nav-item" to="/home">Home</Link>
+                            <Link className="nav-link me-4 nav-item" to="/about">About</Link>
+                            <Link className="nav-link me-4 nav-item" to="/services">Services</Link>
+                            <Link className="nav-link me-4 nav-item" to="/contact">Contact</Link>
                         </Nav>
                 </Container>
             </Navbar>

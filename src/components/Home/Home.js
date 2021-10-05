@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="course-container">
                 <h1>Our Featured Course</h1>
             </div>
-            <div className="searchbox">
+            <div className="searchbox mt-4 mb-4">
                 <input type="text" className="p-2" placeholder="Enter Your Course" />
                 <button className="btn btn-danger p-2">Search</button>
             </div>
