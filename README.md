@@ -1,4 +1,4 @@
-# Science Fiction Movies
+# Education Zone
 
 [Click here to visit the site](https://science-fiction-movies.netlify.app/)
 
